@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
 
 public class FileManager {
 
@@ -21,6 +22,24 @@ public class FileManager {
         else {
             Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
         }
+    }
+
+    public static ArrayList<File> getFiles(File source)
+    {
+        ArrayList<File> files = new ArrayList<File>();
+
+        File[] txtFiles = source.listFiles();
+
+        if(txtFiles != null) {
+            for(File file : txtFiles) {
+                if(file.isFile())
+                    files.add(file);
+                else if(file.isDirectory())
+                    files.addAll(getFiles(file));
+            }
+        }
+
+        return files;
     }
 
 }
