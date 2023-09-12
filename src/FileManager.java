@@ -77,4 +77,16 @@ public class FileManager {
         }
     }
 
+    public static String getDownloadPath() {
+        String os = System.getProperty("os.name").toLowerCase();
+
+        if(os.contains("win"))
+            return System.getProperty("user.home") + "\\Downloads\\";
+
+        else if(os.contains("nix") || os.contains("nux") || os.contains("mac"))
+            return System.getProperty("user.home") + "/Downloads/";
+
+        return null;
+    }
+
 }
