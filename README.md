@@ -1,8 +1,6 @@
 
 # Batch Processing
 
-![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ## Description
 
 This project is part of the Operating Systems class, where batch processing concepts are put into practice. The project involves modifying the content of text files. The project fulfills the following requested requirements:
