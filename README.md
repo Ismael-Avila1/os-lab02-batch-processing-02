@@ -58,7 +58,7 @@ If you have any questions or need further assistance, feel free to contact the p
 
 - Ismael Avila
 - Email: ismaelg.avilag@gmail.com
-- GitHub: [Ismael-Avila1](https://github.com/your-username)
-- LinkedIn: [Ismael-Avila1](https://www.linkedin.com/in/ismael-avila1/)
+- GitHub: [Ismael-Avila1](https://github.com/ismaelg-avilag)
+- LinkedIn: [Ismael-Avila1](https://www.linkedin.com/in/ismaelg-avilag)
 
 ---
