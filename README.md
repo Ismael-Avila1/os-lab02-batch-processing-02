@@ -56,9 +56,9 @@ To use this program, follow these steps:
 
 If you have any questions or need further assistance, feel free to contact the project maintainer:
 
-- Ismael Avila
+Ismael Avila
 - Email: ismaelg.avilag@gmail.com
-- GitHub: [Ismael-Avila1](https://github.com/ismaelg-avilag)
-- LinkedIn: [Ismael-Avila1](https://www.linkedin.com/in/ismaelg-avilag)
+- GitHub: [Ismaelg-Avilag](https://github.com/ismaelg-avilag)
+- LinkedIn: [Ismaelg-Avilag](https://www.linkedin.com/in/ismaelg-avilag)
 
 ---
